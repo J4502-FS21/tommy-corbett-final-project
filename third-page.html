@@ -17,6 +17,7 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="second-page.html">Database</a></li>
+          <li><a href="fourth-page.html">The Challengers</a></li>
           <li class="active"><a href="third-page.html">Quiz!</a></li>
         </ul>
       </nav>
@@ -25,6 +26,36 @@
       <section>
       <h2>After browsing The Challege Database, see how YOU would fair in one of the most infamous daily challenges: Trivia! See if you can make it to the final question and win this week's daily challenge!</h2>
       <section/>
+
+        <form id = "quiz" name = "quiz">
+
+
+        <p class = "questions">How many seasons of The Challenge have there been? (not including spin-offs)</p>
+        <input id = "textbox" type = "text" name = "question1">
+
+        <p class = "questions">Who has won the most Challenge seasons?</p>
+        <input type = "radio" id = "mc" name = "question2" value = "blah"> Chris 'CT' Tamburello<br>
+        <input type = "radio" id = "mc" name = "question2" value = "Johnny 'Bananas' Devenanzio"> Johnny 'Bananas' Devenanzio<br>
+          <input type = "radio" id = "mc" name = "question2" value = "blah"> Ashley Mitchell<br>
+          <input type = "radio" id = "mc" name = "question2" value = "blah"> Turbo Camkiran<br>
+
+        <p class = "questions">How much money has been won by competitiors over the 37 seasons of The Challenge?</p>
+
+        <input type = "radio" id = "mc" name = "question3" value = "blah"> $10 million<br>
+        <input type = "radio" id = "mc" name = "question3" value = "blah"> $7 million<br>
+        <input type = "radio" id = "mc" name = "question3" value = "blah"> $25 million<br>
+        <input type = "radio" id = "mc" name = "question3" value = "$14 million"> $14 million<br>
+
+        <input id = "button" type = "button" value = "How did I do?" onclick = "check();">
+
+
+        </form>
+
+        <div id = "after_submit">
+        <p id = "number_correct"></p>
+        <p id = "message"></p>
+        <img id = "picture">
+        </div>
     <main/>
   </body>
 </html>
