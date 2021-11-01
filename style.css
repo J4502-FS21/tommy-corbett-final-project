@@ -83,7 +83,10 @@ nav a:focus {
   color: #8CBFCF;
   background: #000300;
 }
-
+.funfact {
+  background: #ff01fb
+  color: #000300;
+}
 .bigNumberList li, .iconList li {
   padding: 1rem;
 }
@@ -113,32 +116,6 @@ nav a:focus {
   margin-top: 1rem;
 }
 
-footer {
-  background: #2D5D6C;
-  color: #ffffff;
-  text-align:center;
-  margin-top: 1rem;
-  padding: 1rem;
-}
-
-.skip-link {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  border: 0;
-  font-size: 1.5rem;
-}
-
-.skip-link:focus {
-  width: unset;
-  height: unset;
-  position: relative;
-  margin: unset;
-  padding: unset;
-}
 
 @media (min-width: 425px) {
 
