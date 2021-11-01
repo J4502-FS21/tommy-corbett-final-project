@@ -34,7 +34,7 @@ li{
   padding: 10px;
   color: #faff00;
 }
-img {width: 50%;}
+img {width: 100%;}
 nav {
   background: #02a9ea;
   height: 9rem;
@@ -84,7 +84,7 @@ nav a:focus {
   background: #000300;
 }
 .funfact {
-  background: #ff01fb
+  background: #ff01fb;
   color: #000300;
 }
 .bigNumberList li, .iconList li {
