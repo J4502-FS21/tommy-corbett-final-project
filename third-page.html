@@ -11,23 +11,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
+  <script src="main.js"></script>
+  <div class="topnav">
+    <a href="third-page.html" class="active">Trivia Challenge!</a>
+
+    <div id="myLinks">
+      <a href="index.html">Home</a>
+      <a href="second-page.html">Database</a>
+      <a href="fourth-page.html">The Challengers</a>
+    </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
   <body>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="second-page.html">Database</a></li>
-          <li><a href="fourth-page.html">The Challengers</a></li>
-          <li class="active"><a href="third-page.html">Quiz!</a></li>
-        </ul>
-      </nav>
     <main id="content">
-      <h1>The Challenge Quiz</h1>
+      <h1>Trivia Challenge!</h1>
       <section>
-      <h2>After browsing The Challege Database, see how YOU would fair in one of the most infamous daily challenges: Trivia! See if you can make it to the final question and win this week's daily challenge!</h2>
+      <h2>After browsing The Challege Database, see how YOU would fair in one of the most infamous daily challenges: Trivia! Can you make it to the final question and win this week's daily challenge? Or will you be the first one into this week's elimination round?</h2>
       <section/>
 
         <form id = "quiz" name = "quiz">
+          <script src="main.js"></script>
 
 
         <p class = "questions">How many seasons of The Challenge have there been? (not including spin-offs)</p>
@@ -56,6 +64,6 @@
         <p id = "message"></p>
         <img id = "picture">
         </div>
-    <main/>
+    </main>
   </body>
 </html>
