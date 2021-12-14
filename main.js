@@ -31,7 +31,7 @@ function check(){
 		if (question4 == "ANSWER") {
   		correct++;
 		}
-		if (question5 == "ANSWER") {
+		if (question5 == "28") {
   		correct++;
 		}
 		if (question6 == "ANSWER") {
