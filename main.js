@@ -38,7 +38,7 @@ function check(){
   		correct++;
 		}
 
-	var pictures = ["quizwin.jpeg", "meh.png", "elimination.png"];
+	var pictures = ["quizwin.png", "meh.png", "elimination.png"];
 	var messages = ["Great job! You're safe this week!", "That's just okay. Hopefully you won't be the house vote.", "That was bad. You're going into elimination this week."];
 	var score;
 

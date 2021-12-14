@@ -72,10 +72,7 @@ margin: 0;
 .flex-container h2{
   font-size: 14pt;
 }
-.photocredit p{
-  margin-top: 0;
-  text-decoration: none;
-}
+
 #quiz {
 	margin-left: 10px;
 	background: #02a9ea;
@@ -192,4 +189,10 @@ input {
 .active {
   background-color: #02a9ea;
   color: #000300;
+}
+a{
+  color: #ff01fb;
+}
+a:link{
+  text-decoration: none;
 }
